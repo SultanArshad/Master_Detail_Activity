@@ -29,6 +29,7 @@ public class Employee implements Serializable {
 
     ////collection is handle here  by net  or  by local database
     public static ArrayList<Employee> getEmployees() {
+        int abc=10;
         ArrayList<Employee> employees = new ArrayList<>();
         employees.add(new Employee("11master", "111detailsssfujejejfelsknljsnlsnslgknslgn"));
         employees.add(new Employee("22master", "222detailsssfujejejfelsknljsnlsnslgknslgn"));
